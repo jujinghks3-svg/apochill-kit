@@ -18,8 +18,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4574,
-      "sha256": "c2acf31b59a32ef9c6aaa30f28b7af05c51f8cdfa5b0eaf8006b1f053c37445f"
+      "bytes": 6934,
+      "sha256": "d4c503fae6e320df2c7e8e327fe8b57e092118d13b5a719911823a807db5f470"
     },
     {
       "path": "assets/web/.gitkeep",
@@ -450,6 +450,31 @@
       "path": "assets/web/textures/tree-billboard-normals.png",
       "bytes": 188862,
       "sha256": "d3092cb9d3a96e944dbc41cdcc8ca905c585ced3d3f48b49660c355300f16e09"
+    },
+    {
+      "path": "docs/images/apochill-latest.jpg",
+      "bytes": 332860,
+      "sha256": "48f460ecaf6b36d03b044f8dda674f7363db5a17e4445298eb8f584b4f43655a"
+    },
+    {
+      "path": "docs/images/app-detection.jpg",
+      "bytes": 334904,
+      "sha256": "82eb4d93a315210c50790d19c473460f658f0b1fbfcce839501adcd775bbcf1d"
+    },
+    {
+      "path": "docs/images/daylight.jpg",
+      "bytes": 337022,
+      "sha256": "f62fc88ebc6f6942a220530dab625b470f2c409023f459288aaf9e4896421ac1"
+    },
+    {
+      "path": "docs/images/evening.jpg",
+      "bytes": 212836,
+      "sha256": "035224a3a19dbd97dc75f1f0cc4a78dba05cf301fa6935e5d11462a8627ba0c8"
+    },
+    {
+      "path": "docs/images/storm.jpg",
+      "bytes": 253590,
+      "sha256": "0b06b1b8c26b4bbdfd7a92e0c2d4b71f90b5b735d0ba217b5b28eeb4f33fb4e6"
     },
     {
       "path": "gallery.html",
