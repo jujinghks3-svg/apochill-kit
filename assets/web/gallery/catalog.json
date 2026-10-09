@@ -1,0 +1,290 @@
+[
+  {
+    "id": "curved-glass-office",
+    "name": "곡면 유리 오피스",
+    "category": "건축물",
+    "active": true,
+    "model": "buildings/curved-glass-office.glb",
+    "thumbnail": "gallery/curved-glass-office.webp",
+    "bytes": 792260,
+    "triangles": 18999,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "stone-rib-tower",
+    "name": "석재 리브 타워",
+    "category": "건축물",
+    "active": true,
+    "model": "buildings/stone-rib-tower.glb",
+    "thumbnail": "gallery/stone-rib-tower.webp",
+    "bytes": 671856,
+    "triangles": 18999,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "apartment-slab",
+    "name": "서울 아파트",
+    "category": "건축물",
+    "active": true,
+    "model": "buildings/apartment-slab.glb",
+    "thumbnail": "gallery/apartment-slab.webp",
+    "bytes": 685768,
+    "triangles": 18999,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "seoul-corner-shops",
+    "name": "코너 상가",
+    "category": "건축물",
+    "active": false,
+    "model": "buildings/seoul-corner-shops.glb",
+    "thumbnail": "gallery/seoul-corner-shops.webp",
+    "bytes": 739784,
+    "triangles": 18998,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "namsan-tower",
+    "name": "남산타워",
+    "category": "건축물",
+    "active": true,
+    "model": "buildings/namsan-tower.glb",
+    "thumbnail": "gallery/namsan-tower.webp",
+    "bytes": 1539896,
+    "triangles": 12956,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "yeouido-gold-tower",
+    "name": "금빛 63빌딩",
+    "category": "건축물",
+    "active": false,
+    "model": "buildings/yeouido-gold-tower.glb",
+    "thumbnail": "gallery/yeouido-gold-tower.webp",
+    "bytes": 1961692,
+    "triangles": 12700,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "yeouido-red-frame-tower",
+    "name": "붉은 프레임 타워",
+    "category": "건축물",
+    "active": false,
+    "model": "buildings/yeouido-red-frame-tower.glb",
+    "thumbnail": "gallery/yeouido-red-frame-tower.webp",
+    "bytes": 1363200,
+    "triangles": 13210,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "yeouido-glass-office",
+    "name": "여의도 유리 오피스",
+    "category": "건축물",
+    "active": false,
+    "model": "buildings/yeouido-glass-office.glb",
+    "thumbnail": "gallery/yeouido-glass-office.webp",
+    "bytes": 2218192,
+    "triangles": 12110,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "seoul-silver-glass-office",
+    "name": "실버 유리 오피스",
+    "category": "건축물",
+    "active": false,
+    "model": "buildings/seoul-silver-glass-office.glb",
+    "thumbnail": "gallery/seoul-silver-glass-office.webp",
+    "bytes": 1600752,
+    "triangles": 12100,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "camp-chair",
+    "name": "캠핑 의자",
+    "category": "캠핑·생존 소품",
+    "active": true,
+    "model": "props/camp-chair.glb",
+    "thumbnail": "gallery/camp-chair.webp",
+    "bytes": 1103720,
+    "triangles": 10956,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "survival-storage",
+    "name": "생존 보관함",
+    "category": "캠핑·생존 소품",
+    "active": true,
+    "model": "props/survival-storage.glb",
+    "thumbnail": "gallery/survival-storage.webp",
+    "bytes": 1097324,
+    "triangles": 5423,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "survival-cooler",
+    "name": "아이스박스",
+    "category": "캠핑·생존 소품",
+    "active": true,
+    "model": "props/survival-cooler.glb",
+    "thumbnail": "gallery/survival-cooler.webp",
+    "bytes": 720240,
+    "triangles": 5573,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "survival-toolbox",
+    "name": "공구함",
+    "category": "캠핑·생존 소품",
+    "active": true,
+    "model": "props/survival-toolbox.glb",
+    "thumbnail": "gallery/survival-toolbox.webp",
+    "bytes": 1054524,
+    "triangles": 5184,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "camp-tent",
+    "name": "캠핑 텐트",
+    "category": "캠핑·생존 소품",
+    "active": true,
+    "model": "props/camp-tent.glb",
+    "thumbnail": "gallery/camp-tent.webp",
+    "bytes": 1016384,
+    "triangles": 14176,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "survival-backpack",
+    "name": "생존 배낭",
+    "category": "캠핑·생존 소품",
+    "active": true,
+    "model": "props/survival-backpack.glb",
+    "thumbnail": "gallery/survival-backpack.webp",
+    "bytes": 948684,
+    "triangles": 11649,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "wooden-camp-table",
+    "name": "나무 캠핑 테이블",
+    "category": "캠핑·생존 소품",
+    "active": true,
+    "model": "props/wooden-camp-table.glb",
+    "thumbnail": "gallery/wooden-camp-table.webp",
+    "bytes": 1156712,
+    "triangles": 7297,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "weathered-wood-platform",
+    "name": "부서진 나무 발판",
+    "category": "캠핑·생존 소품",
+    "active": true,
+    "model": "props/weathered-wood-platform.glb",
+    "thumbnail": "gallery/weathered-wood-platform.webp",
+    "bytes": 1762528,
+    "triangles": 7828,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "rooftop-water-tank",
+    "name": "옥상 물탱크",
+    "category": "캠핑·생존 소품",
+    "active": true,
+    "model": "props/rooftop-water-tank.glb",
+    "thumbnail": "gallery/rooftop-water-tank.webp",
+    "bytes": 909940,
+    "triangles": 10531,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "dog-house-tripo",
+    "name": "강아지집",
+    "category": "캠핑·생존 소품",
+    "active": true,
+    "model": "props/dog-house-tripo.glb",
+    "thumbnail": "gallery/dog-house-tripo.webp",
+    "bytes": 1067164,
+    "triangles": 4891,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "character-rigged",
+    "name": "파란 모자 생존자",
+    "category": "캐릭터·전자기기",
+    "active": true,
+    "model": "companions/character-rigged.glb",
+    "thumbnail": "gallery/character-rigged.webp",
+    "bytes": 1237752,
+    "triangles": 16942,
+    "animations": [],
+    "variants": [
+      {
+        "model": "gallery/character-tpose.glb",
+        "label": "생성 원본 · T자 포즈"
+      }
+    ]
+  },
+  {
+    "id": "shiba-walk",
+    "name": "시바견",
+    "category": "캐릭터·전자기기",
+    "active": true,
+    "model": "companions/shiba-walk.glb",
+    "thumbnail": "gallery/shiba-walk.webp",
+    "bytes": 811840,
+    "triangles": 10044,
+    "animations": [
+      "preset:quadruped:walk"
+    ],
+    "variants": [
+      {
+        "model": "gallery/shiba-static.glb",
+        "label": "생성 원본 · 기본 포즈"
+      }
+    ]
+  },
+  {
+    "id": "laptop",
+    "name": "노트북",
+    "category": "캐릭터·전자기기",
+    "active": true,
+    "model": "companions/laptop.glb",
+    "thumbnail": "gallery/laptop.webp",
+    "bytes": 1227232,
+    "triangles": 5491,
+    "animations": [],
+    "variants": []
+  },
+  {
+    "id": "tent",
+    "name": "첫 테스트 텐트",
+    "category": "캠핑·생존 소품",
+    "active": false,
+    "model": "tent.glb",
+    "thumbnail": "gallery/tent.webp",
+    "bytes": 275968,
+    "triangles": 3790,
+    "animations": [],
+    "variants": []
+  }
+]

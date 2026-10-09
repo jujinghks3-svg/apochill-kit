@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko" data-intro-active="true">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#42a9e0" />
+    <meta name="description" content="푸른 물과 숲이 되찾은 서울, 햇살 아래 폐허 도시와 작은 생존 캠프. Apochill." />
+    <title>Apochill — 초록이 되찾은 서울</title>
+    <style>
+      html[data-intro-active=true],html[data-intro-active=true] body{background:#000}
+      #prologue{position:fixed;inset:0;z-index:10000;background:#000;color:#eeeae0;display:grid;place-items:center}
+      #prologue[hidden]{display:none}
+      html[data-intro-active=true] .ui-dock,html[data-intro-active=true] .work-status-bubble{visibility:hidden!important}
+      html,body{margin:0;width:100%;height:100%;background:#253c3a;overflow:hidden}
+      #scene{opacity:0}#loading{position:fixed;inset:0;display:grid;place-items:center;color:#fff;font:15px/1.6 system-ui}
+      #loading img{position:absolute;width:100%;height:100%;object-fit:cover;opacity:.7}
+      #loading div{position:relative;background:#183534e8;border-radius:14px;padding:20px;max-width:80%;text-align:center}
+      #loading a{color:#fff;display:inline-block;padding:8px;text-underline-offset:4px}
+      html[data-render-ready=true] #loading{display:none}html[data-render-ready=true] #scene{opacity:1}
+      .scene-controls{visibility:hidden}html[data-render-ready=true] .scene-controls{visibility:visible}
+    </style>
+  </head>
+  <body>
+    <section id="prologue" aria-label="Apochill 프롤로그">
+      <header class="prologue-header"><span class="prologue-brand">APOCHILL</span><div class="prologue-meta"><span>PROLOGUE <span id="prologue-count" aria-hidden="true">01 / 07</span></span><button id="prologue-music" type="button" aria-pressed="false" disabled>음악 켜기</button></div></header>
+      <div class="prologue-stage">
+        <p class="prologue-kicker">모든 것이 자연으로 돌아간 뒤, 서울.</p>
+        <div class="prologue-copy" aria-hidden="true"><span id="prologue-layout">당신은 이유를 알 수 없이
+완전히 자연으로 돌아간 서울의 옥상에서
+눈을 떴다.</span><span id="prologue-text"></span></div>
+        <p id="prologue-accessible" class="prologue-sr" aria-live="polite" aria-atomic="true"></p>
+        <div id="prologue-recovery" hidden><a href="/?quality=mobile">모바일 모드로 다시 열기</a><a href="/previews/apochill-skyline-helipads-v30.png">이미지 먼저 보기</a></div>
+      </div>
+      <footer class="prologue-footer"><div class="prologue-loading"><p id="prologue-wait" role="status">Apochill 화면을 준비하고 있어요…</p><div class="prologue-track" aria-hidden="true"><span id="prologue-progress" data-state="loading"></span></div></div><button id="prologue-skip" type="button">다음 <span aria-hidden="true">→</span></button></footer>
+    </section>
+    <canvas id="scene" aria-label="맑은 하늘 아래 물과 숲이 되찾은 폐허 서울의 옥상 생존 캠프"></canvas>
+    <aside class="ui-dock" data-open="true" aria-label="캠프 설정">
+    <button class="ui-menu-toggle" type="button" aria-expanded="true" aria-controls="camp-controls"><span>APOCHILL / 캠프 설정</span><span data-menu-symbol aria-hidden="true">−</span></button>
+    <div id="camp-controls" class="scene-controls" aria-label="화면 설정">
+      <div class="time-control">
+        <div class="time-heading"><label for="time-of-day">TIME OF DAY</label><output id="time-value" for="time-of-day" aria-live="off">12:00</output></div>
+        <input id="time-of-day" type="range" min="0" max="24" step="0.25" value="12" aria-label="시간대" aria-valuetext="12:00" disabled />
+        <div class="time-markers" aria-hidden="true"><span>00</span><span>06</span><span>12</span><span>18</span><span>24</span></div>
+        <div class="time-cycle">하루 10분 · 자동</div>
+      </div>
+    </div>
+    </aside>
+    <div id="loading" role="status">
+      <img src="/previews/apochill-skyline-helipads-v30.png" alt="Apochill 현재 씬 미리보기" />
+      <div><p id="load-status">Apochill · 서울의 옥상으로 들어가는 중…</p>
+        <a href="/?quality=mobile">모바일 모드로 열기</a>
+        <a href="/previews/apochill-skyline-helipads-v30.png">이미지 보기</a>
+      </div>
+    </div>
+    <script type="module" src="/src/bootstrap.js"></script>
+    <script type="module" src="/src/bgm-ui.js"></script>
+  </body>
+</html>
+

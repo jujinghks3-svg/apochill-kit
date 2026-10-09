@@ -1,0 +1,24 @@
+@import './glass-ui.css';
+.bgm-panel{position:fixed;left:max(18px,env(safe-area-inset-left));bottom:max(18px,env(safe-area-inset-bottom));z-index:6;box-sizing:border-box;width:min(384px,calc(100vw - 24px));max-height:calc(100dvh - 32px);overflow:auto;padding:12px 14px 10px;border-radius:16px;font:500 11px/1.4 system-ui,sans-serif}
+.bgm-panel [hidden]{display:none!important}
+.radio-heading{display:flex;align-items:center;gap:12px}
+.bgm-label{flex:1;font-size:9px;letter-spacing:.12em;color:var(--glass-muted)}
+.radio-toggle{display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;min-width:88px;padding:0 13px;border:1px solid #ffffffb8;border-radius:10px;background:#ffffff80;color:var(--glass-text);font:600 12px system-ui;cursor:pointer;touch-action:manipulation}
+.radio-toggle[aria-pressed=true]{background:#ffffffed;box-shadow:0 2px 8px #243c4e12}
+.radio-icon{width:14px;text-align:center}
+.radio-original{color:var(--glass-muted);font-size:10px;text-underline-offset:3px;white-space:nowrap}
+.radio-video{width:100%;margin-top:8px;background:#e2e7e9;border-radius:8px;overflow:hidden;min-height:220px;box-shadow:0 0 0 1px #ffffff9c}
+.radio-video iframe{display:block;width:100%;height:220px;border:0}
+.radio-status{font-size:10px;color:var(--glass-muted);margin:8px 0 0;line-height:1.6}
+.radio-toggle:focus-visible,.radio-original:focus-visible{outline:2px solid var(--glass-focus);outline-offset:3px}
+@media(hover:hover){.radio-toggle:hover{background:#ffffffc9}.radio-original:hover{color:#1a3548}}
+@media(max-width:480px){.bgm-panel{left:12px;bottom:max(12px,env(safe-area-inset-bottom));padding:8px 10px}}
+.radio-track-label{display:block;color:var(--glass-muted);margin:10px 0 4px}
+.radio-track{width:100%;min-height:38px;border:1px solid #ffffffb8;border-radius:9px;background:#ffffff85;color:var(--glass-text);padding:7px;font:500 12px system-ui}
+.radio-local-controls{display:flex;gap:16px;align-items:center;margin-top:10px}
+.radio-files{position:relative;padding:9px 10px;border:1px solid #ffffffb8;border-radius:9px;background:#ffffff80;color:var(--glass-text);cursor:pointer;white-space:nowrap}
+.radio-files input{position:absolute;inset:0;opacity:0;width:100%;cursor:pointer}
+.radio-volume{display:flex;gap:8px;align-items:center;flex:1;color:var(--glass-muted)}
+.radio-volume input{min-width:0;width:100%;accent-color:#637d79}
+.radio-toggle:disabled{opacity:.45;cursor:default}
+.radio-track:focus-visible,.radio-files:focus-within{outline:2px solid var(--glass-focus);outline-offset:3px}

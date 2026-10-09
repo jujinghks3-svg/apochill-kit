@@ -1,0 +1,38 @@
+#prologue{font-family:'ApochillPixel',monospace;isolation:isolate;transition:opacity 1.8s ease;box-sizing:border-box;padding:clamp(22px,5vw,76px);overflow-y:auto}
+#prologue[data-leaving=true]{opacity:0;pointer-events:none}
+.prologue-header,.prologue-footer{position:absolute;left:clamp(22px,5vw,76px);right:clamp(22px,5vw,76px);display:flex;align-items:center;justify-content:space-between;gap:24px}
+.prologue-header{top:max(30px,env(safe-area-inset-top));font-size:10px;color:#797b79;letter-spacing:.16em}
+.prologue-brand{font:12px/1.5 'ApochillPixel',monospace;color:#cccac4;letter-spacing:.34em}
+.prologue-meta{display:flex;align-items:center;gap:24px}
+#prologue-music{font:11px/1.4 'ApochillPixel',monospace;color:#bbbfb6;background:transparent;border:1px solid #353a35;padding:8px 12px;min-height:40px;cursor:pointer;white-space:nowrap}
+#prologue-music:disabled{opacity:.45;cursor:default}
+#prologue-music:hover{color:#fff;border-color:#8d968c}
+#prologue-music:focus-visible{outline:2px solid #e4eadd;outline-offset:4px}
+@media(max-width:540px){.prologue-header{align-items:flex-start}.prologue-meta{flex-direction:column;align-items:flex-end;gap:10px}}
+#prologue-count{margin-left:18px;letter-spacing:.08em;color:#a3a29b}
+.prologue-stage{width:min(100%,750px);padding:100px 0;text-align:center}
+.prologue-kicker{font-size:11px;letter-spacing:.14em;color:#7c827e;margin:0 0 44px}
+.prologue-copy{position:relative;white-space:pre-line;font-size:clamp(17px,2vw,24px);font-weight:400;line-height:2.25;letter-spacing:.015em;word-break:keep-all;overflow-wrap:break-word;min-height:7em}
+#prologue-layout{visibility:hidden;display:block}
+#prologue-text{position:absolute;inset:0;display:block;text-shadow:0 0 22px #eeeae016}
+.prologue-footer{bottom:max(28px,env(safe-area-inset-bottom));align-items:flex-end}
+.prologue-loading{flex:1;min-width:0;max-width:460px}
+.prologue-track{height:1px;background:#262927;width:100%;overflow:hidden}
+#prologue-progress{display:block;height:100%;width:100%;background:#b9bcb4;transform-origin:left;animation:prologue-loading 2s ease-in-out infinite}
+#prologue-progress[data-state=ready]{animation:none;transform:scaleX(1)}
+#prologue-progress[data-state=failed]{animation:none;transform:scaleX(.18);background:#b89981}
+@keyframes prologue-loading{0%{transform:translateX(-35%) scaleX(.35)}100%{transform:translateX(100%) scaleX(.35)}}
+#prologue-skip{font:12px/1.5 'ApochillPixel',monospace;color:#a3a7a1;background:transparent;border:1px solid #353a35;border-radius:0;min-height:44px;padding:10px 18px;cursor:pointer;letter-spacing:.06em}
+#prologue-skip:hover{color:#fff;border-color:#8d968c;background:#111511}
+#prologue-skip:focus-visible,#prologue a:focus-visible{outline:2px solid #e4eadd;outline-offset:6px}
+#prologue-skip:disabled{cursor:default;color:#7b817c}
+#prologue-wait{color:#949d92;font-size:11px;line-height:1.8;margin:0 0 12px;min-height:2em;word-break:keep-all;overflow-wrap:break-word}
+#prologue-skip{flex-shrink:0}
+#prologue-recovery a{display:inline-block;margin:20px 12px 0;color:#d3d7cc;font-size:12px;text-underline-offset:5px}
+.prologue-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+#prologue[data-reading=true]{align-items:start}
+#prologue[data-reading=true] .prologue-copy{font-size:clamp(14px,1.7vw,20px);line-height:2}
+#prologue[data-reading=true] .prologue-stage{padding:90px 0}
+#prologue[data-reading=true] .prologue-footer{position:fixed;background:#000;padding-top:12px}
+@media(max-width:540px){.prologue-header{font-size:9px}.prologue-brand{font-size:10px;letter-spacing:.22em}#prologue-count{margin-left:8px}.prologue-stage{width:100%}.prologue-kicker{margin-bottom:32px;font-size:10px}.prologue-footer{gap:16px}#prologue-wait{font-size:10px}.prologue-copy{line-height:2.3}}
+@media(prefers-reduced-motion:reduce){#prologue{transition:none}#prologue-progress[data-state=loading]{animation:none;transform:scaleX(.35)}}

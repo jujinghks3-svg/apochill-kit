@@ -1,0 +1,10 @@
+node_modules/
+dist/
+assets/web/draco/
+diagnostics/
+.npm-cache/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db

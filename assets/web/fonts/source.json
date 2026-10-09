@@ -1,0 +1,25 @@
+{
+  "project": "https://github.com/quiple/galmuri",
+  "license": "SIL Open Font License 1.1",
+  "retrievedAt": "2026-10-01T15:17:22.549Z",
+  "files": [
+    {
+      "name": "Galmuri11.woff2",
+      "url": "https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri11.woff2",
+      "bytes": 505400,
+      "sha256": "8bad9322b3340bfb5cb26cb00f4752bf4c8e7d1b526bb07205f4af458eebed31"
+    },
+    {
+      "name": "Galmuri11-Bold.woff2",
+      "url": "https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri11-Bold.woff2",
+      "bytes": 166352,
+      "sha256": "0cfd6ce25b9f531fab677a604d96bc062cc139166880a086da3b4d72b1bb2492"
+    },
+    {
+      "name": "OFL-Galmuri.md",
+      "url": "https://raw.githubusercontent.com/quiple/galmuri/main/ofl.md",
+      "bytes": 4266,
+      "sha256": "9a9e5a342c430c3fcf01a408b680f4405d5bf4ac659c931be35f8a1b27ea69c9"
+    }
+  ]
+}

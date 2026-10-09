@@ -1,0 +1,51 @@
+@font-face{font-family:ApochillPixel;src:url('/fonts/Galmuri11.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:ApochillPixel;src:url('/fonts/Galmuri11-Bold.woff2') format('woff2');font-style:normal;font-weight:700;font-display:swap}
+:root{--ui-paper:#f7f7ecef;--ui-ink:#35463f;--ui-line:#647569;--ui-muted:#66786b;--ui-green:#dce8bd;--ui-shadow:3px 3px 0 #233c3959;--ui-font:ApochillPixel,monospace}
+.ui-dock{position:fixed;z-index:20;right:max(20px,env(safe-area-inset-right));top:max(20px,env(safe-area-inset-top));width:264px;color:var(--ui-ink);font:12px/1.5 var(--ui-font);visibility:hidden}
+html[data-render-ready=true] .ui-dock{visibility:visible}
+.ui-dock .ui-menu-toggle{width:100%;display:flex;align-items:center;justify-content:space-between;min-height:44px;padding:8px 12px;background:var(--ui-paper);color:var(--ui-ink);border:2px solid var(--ui-line);border-radius:0;box-shadow:var(--ui-shadow);font:700 12px/1.5 var(--ui-font);cursor:pointer}
+.ui-dock .ui-menu-toggle span:last-child{font-size:16px}
+.ui-dock .scene-controls{position:static;display:flex;align-items:stretch;flex-direction:column;gap:12px;width:100%;margin-top:12px;padding:0 5px 6px 0;box-sizing:border-box;max-height:calc(100dvh - 96px);overflow-y:auto;overflow-x:hidden;scrollbar-width:thin;scrollbar-color:var(--ui-line) transparent;overscroll-behavior:contain}
+.ui-dock[data-open=false] .scene-controls{display:none}
+.ui-dock .scene-controls,.ui-dock .scene-controls *{font-family:var(--ui-font);font-weight:400;letter-spacing:0;box-sizing:border-box}
+.ui-dock .scene-controls>:is(.pixel-toggle,.time-control,.weather-panel,.bgm-panel,.work-status-panel){position:relative;inset:auto;transform:none;margin:0;width:100%;max-width:none;max-height:none;flex-shrink:0;border:2px solid var(--ui-line);border-radius:0;padding:12px;background:var(--ui-paper);color:var(--ui-ink);box-shadow:var(--ui-shadow);backdrop-filter:none;-webkit-backdrop-filter:none;font-size:12px;line-height:1.5}
+.ui-dock .pixel-toggle{order:1;min-height:44px;justify-content:space-between;gap:8px;cursor:pointer}
+.ui-dock .time-control{order:2}.ui-dock .weather-panel{order:3}.ui-dock .work-status-panel{order:4;display:grid;gap:8px}.ui-dock .bgm-panel{order:5;overflow:visible}
+.ui-dock .scene-controls button,.ui-dock .radio-files,.ui-dock .radio-track{border:2px solid #869384;border-radius:0;background:#ffffffb8;color:var(--ui-ink);font-size:12px;box-shadow:2px 2px 0 #52615326;min-height:40px;padding:7px 9px;touch-action:manipulation}
+.ui-dock .scene-controls button[aria-pressed=true]{background:var(--ui-green);color:#30472e;border-color:#5c7352;box-shadow:inset 2px 2px 0 #71895633}
+.ui-dock .scene-controls button:disabled{opacity:.45;cursor:default}
+.ui-dock :is(button,input,select):focus-visible,.ui-dock .radio-files:focus-within{outline:2px solid #253c2e;outline-offset:3px}
+.ui-dock .time-heading label,.ui-dock .bgm-label{font-size:12px;font-weight:700;opacity:1;color:var(--ui-ink)}
+.ui-dock .time-heading output{font-size:12px}.ui-dock .time-markers{font-size:10px;opacity:1;color:var(--ui-muted)}
+.ui-dock :is(.time-cycle,.weather-hint,.radio-status,.radio-track-label,.radio-volume,.work-status-panel span){font-size:11px;line-height:1.6;opacity:1;color:var(--ui-muted)}
+.ui-dock .time-cycle,.ui-dock .weather-hint{text-align:left;margin-top:8px}
+.ui-dock .weather-heading{padding:0;gap:8px;margin-bottom:8px}.ui-dock .weather-heading output{color:var(--ui-ink);font-size:12px}
+.ui-dock .weather-auto{min-height:32px;padding:4px 6px;font-size:11px!important;opacity:1;gap:4px}
+.ui-dock .weather-options{gap:4px}.ui-dock .weather-option{min-height:64px;padding:7px 1px;gap:6px;overflow:hidden}
+.ui-dock .weather-option span{font-size:11px}.ui-dock .weather-option svg{width:24px;height:24px;image-rendering:pixelated}
+.ui-dock .weather-option i{height:3px;background:#647d51}
+.ui-dock .radio-heading{gap:8px}.ui-dock .radio-toggle{min-width:72px;gap:5px;padding:5px 8px}.ui-dock .bgm-label{line-height:1.7}
+.ui-dock .radio-track{width:100%;text-overflow:ellipsis;min-width:0;font-size:12px}
+.ui-dock .radio-local-controls{gap:10px;flex-wrap:wrap;margin-top:10px}.ui-dock .radio-volume{gap:8px;flex:1 0 110px;min-width:0}
+.ui-dock .radio-files{display:flex;align-items:center;min-height:40px;font-size:11px}
+.ui-dock .radio-status{margin:8px 0 0;overflow-wrap:anywhere}
+.ui-dock :is(#time-of-day,.radio-volume input){appearance:none;-webkit-appearance:none;background:transparent;height:28px;margin:2px 0;cursor:pointer}
+.ui-dock :is(#time-of-day,.radio-volume input)::-webkit-slider-runnable-track{height:6px;border:1px solid var(--ui-line);border-radius:0;background:#c6d2b8}
+.ui-dock :is(#time-of-day,.radio-volume input)::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:14px;height:16px;margin-top:-6px;border:2px solid #52664e;border-radius:0;background:#fffef1;box-shadow:2px 2px 0 #52664e55}
+.ui-dock :is(#time-of-day,.radio-volume input)::-moz-range-track{height:6px;border:1px solid var(--ui-line);border-radius:0;background:#c6d2b8}
+.ui-dock :is(#time-of-day,.radio-volume input)::-moz-range-thumb{width:12px;height:14px;border:2px solid #52664e;border-radius:0;background:#fffef1;box-shadow:none}
+.work-status-bubble.work-status-bubble{padding:10px 14px;border:2px solid var(--ui-line);border-radius:0;background:var(--ui-paper);color:var(--ui-ink);box-shadow:var(--ui-shadow);font:12px/1.65 var(--ui-font);backdrop-filter:none;max-width:min(290px,80vw);white-space:normal;text-align:center}
+.work-status-bubble.work-status-bubble::before,.work-status-bubble.work-status-bubble::after{content:"";position:absolute;left:50%;width:0;height:0;transform:translateX(-50%);background:transparent;border:0;pointer-events:none}
+.work-status-bubble.work-status-bubble::before{bottom:-14px;border-left:12px solid transparent;border-right:12px solid transparent;border-top:14px solid var(--ui-line)}
+.work-status-bubble.work-status-bubble::after{bottom:-10px;border-left:9px solid transparent;border-right:9px solid transparent;border-top:11px solid var(--ui-paper)}
+#loading{font-family:var(--ui-font)}#loading>div{border:2px solid var(--ui-line);border-radius:0!important;box-shadow:var(--ui-shadow);font:12px/1.8 var(--ui-font)}
+@media(hover:hover){.ui-dock .scene-controls button:not(:disabled):hover,.ui-dock .ui-menu-toggle:hover{background:#e8edd8;border-color:#4d6855}}
+@media(max-width:700px),(max-height:660px){.ui-dock{width:min(264px,calc(100vw - 28px));right:max(14px,env(safe-area-inset-right));top:max(14px,env(safe-area-inset-top))}.ui-dock .scene-controls{max-height:calc(100dvh - 86px)}.ui-dock .work-status-panel span{display:block}.work-status-bubble.work-status-bubble{font-size:12px}}
+@media(prefers-reduced-motion:reduce){.ui-dock *{transition:none!important}}
+
+.ui-dock .scene-controls>.quality-panel{order:6;flex-shrink:0;width:100%;padding:12px;border:2px solid var(--ui-line);background:var(--ui-paper);color:var(--ui-ink);box-shadow:var(--ui-shadow)}
+.ui-dock .quality-panel strong{display:block;font-weight:700;margin-bottom:8px}
+.ui-dock .quality-options{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.ui-dock .quality-options button{cursor:pointer;font-weight:700}
+.ui-dock .quality-hint{margin:8px 0 3px;font-size:11px;line-height:1.6;color:var(--ui-muted)}
+.ui-dock .quality-panel small{font-size:10px;line-height:1.6;color:var(--ui-muted)}

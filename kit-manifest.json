@@ -1,0 +1,985 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 89,
+      "sha256": "dbd6b603d30f93108d038ec58fdec299c1e3910fc5ba69eee421ec29717f98b1"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 429,
+      "sha256": "099f5d5b16ad612a39dbb86a5b14b6817f21c00c1ea3b27ad623c403eb3a23ed"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 101,
+      "sha256": "404d7bd1c0fd810adb26ab99ce2e2454a687d405a24b6214b14f11401501d113"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4574,
+      "sha256": "c2acf31b59a32ef9c6aaa30f28b7af05c51f8cdfa5b0eaf8006b1f053c37445f"
+    },
+    {
+      "path": "assets/web/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/web/audio/bgm/playlist.json",
+      "bytes": 156,
+      "sha256": "9d98fc8cc46d3a4c060769487a20279e8fc5720f24e9ac8ce7af03e177aef7ca"
+    },
+    {
+      "path": "assets/web/audio/bgm/seoul-after-apocalypse.mp3",
+      "bytes": 5058169,
+      "sha256": "4ad3c86dd8a457546dc515306c2e5e6d8f98abe8ce3cda426826eb8e58e6ac18"
+    },
+    {
+      "path": "assets/web/audio/bgm/shadow-of-our-home.mp3",
+      "bytes": 4921072,
+      "sha256": "6362a640ef1c7745cf2f28acc5ebec0d75fbf35c69b5f46414e7bf0e6e35cf5f"
+    },
+    {
+      "path": "assets/web/buildings/apartment-slab.glb",
+      "bytes": 685768,
+      "sha256": "75755f7b639f8878ec91c455084e84f6b287f8cf9745ac9659c179a57bdb517d"
+    },
+    {
+      "path": "assets/web/buildings/curved-glass-office.glb",
+      "bytes": 792260,
+      "sha256": "cc8e083e00786156898e9c13d2f53a6e6be0669bac4eea31668c788589b3b388"
+    },
+    {
+      "path": "assets/web/buildings/lod/apartment-slab-1.glb",
+      "bytes": 163300,
+      "sha256": "a072089c024490ed03adbf25b7c8314909cc7b3e3428ac3c24d49001bc29e10f"
+    },
+    {
+      "path": "assets/web/buildings/lod/apartment-slab-2.glb",
+      "bytes": 111464,
+      "sha256": "2717075b729de658cd70635947f74fa1007a2b4b29afe29e1eb467d0b0e1f37f"
+    },
+    {
+      "path": "assets/web/buildings/lod/apartment-slab-3.glb",
+      "bytes": 68328,
+      "sha256": "9595cd80a5c3399fe280b39b9ff7a0e544164649a165823b5726a2819964837c"
+    },
+    {
+      "path": "assets/web/buildings/lod/curved-glass-office-1.glb",
+      "bytes": 186300,
+      "sha256": "98af8c4a5e54262b51df9cc0f4208ff1e2430ed14991d0c2a38e5243605f2125"
+    },
+    {
+      "path": "assets/web/buildings/lod/curved-glass-office-2.glb",
+      "bytes": 120888,
+      "sha256": "9174e7d8c0fc4deaf19154cf73afbf5575ac5c89d6294c558e9ce29f6d575ce6"
+    },
+    {
+      "path": "assets/web/buildings/lod/curved-glass-office-3.glb",
+      "bytes": 74168,
+      "sha256": "b942285b3de876a6081a62e873d744278d5362450c63391b13365c8ee8e4e140"
+    },
+    {
+      "path": "assets/web/buildings/lod/stone-rib-tower-1.glb",
+      "bytes": 138288,
+      "sha256": "97097105a7b157e38802a018f2f67187d70e7b0af25ed75d392fd1bb4d293ca3"
+    },
+    {
+      "path": "assets/web/buildings/lod/stone-rib-tower-2.glb",
+      "bytes": 98628,
+      "sha256": "f8bc45fc486f923a7ac8994ad0e994ca950d73e856f4d9b26c0006e388fa10e2"
+    },
+    {
+      "path": "assets/web/buildings/lod/stone-rib-tower-3.glb",
+      "bytes": 66032,
+      "sha256": "1927c41cb782b1fedfc47fb5f63441ee90ca9a15daf5d356e153b7a401caa1d3"
+    },
+    {
+      "path": "assets/web/buildings/namsan-tower.glb",
+      "bytes": 1539896,
+      "sha256": "42cedc2e8f3f842b3d7191f36327cbd962e1dfb323a3dfe1da52183267585ea7"
+    },
+    {
+      "path": "assets/web/buildings/seoul-corner-shops.glb",
+      "bytes": 739784,
+      "sha256": "45d33294b9ab07f0217a46984701363dbdf15066b30445ad9c51e7806cfe55ec"
+    },
+    {
+      "path": "assets/web/buildings/seoul-silver-glass-office.glb",
+      "bytes": 1600752,
+      "sha256": "8d434d67ec63fe7d72accd2591234c39d8739dc3e2161d973c86975419bed4d0"
+    },
+    {
+      "path": "assets/web/buildings/stone-rib-tower.glb",
+      "bytes": 671856,
+      "sha256": "ca27407bd21b619b41e6f9c40f78393f6a3d11f707111df1fc15ca4b3700f7ed"
+    },
+    {
+      "path": "assets/web/buildings/yeouido-glass-office.glb",
+      "bytes": 2218192,
+      "sha256": "970a698e5d57f72466022681fae157d50d20ac4bd424e870add19eaec5d0845c"
+    },
+    {
+      "path": "assets/web/buildings/yeouido-gold-tower.glb",
+      "bytes": 1961692,
+      "sha256": "e811059a5b55a594a7bd4aa9f58076426a6b0197fadca0b9f4a9e5525a6dbfc4"
+    },
+    {
+      "path": "assets/web/buildings/yeouido-red-frame-tower.glb",
+      "bytes": 1363200,
+      "sha256": "67c3d26371a7727856be5c1ebfc3a33bdb560050738185c9ec7b82da458f43f4"
+    },
+    {
+      "path": "assets/web/companions/character-rigged.glb",
+      "bytes": 1237752,
+      "sha256": "eec6e1674d7b9d09d31439f52fe3c4ea3b3d3f6360be513218947cc362e9e192"
+    },
+    {
+      "path": "assets/web/companions/laptop.glb",
+      "bytes": 1227232,
+      "sha256": "364dd35e9f8db1f63005bdd83f6e4115e1c030e7cfd11c0e154f68ca1bede29d"
+    },
+    {
+      "path": "assets/web/companions/shiba-walk.glb",
+      "bytes": 811840,
+      "sha256": "0644ef1898ae9cdbbaf6c35ff51caa5c178b5e801f9146765163dd438de3e7dd"
+    },
+    {
+      "path": "assets/web/companions/shiba.glb",
+      "bytes": 793368,
+      "sha256": "2c52114539e2a1ed62076ae4c634b9cbb58ed85a6166f4400024db59c65c1471"
+    },
+    {
+      "path": "assets/web/fonts/Galmuri11-Bold.woff2",
+      "bytes": 166352,
+      "sha256": "0cfd6ce25b9f531fab677a604d96bc062cc139166880a086da3b4d72b1bb2492"
+    },
+    {
+      "path": "assets/web/fonts/Galmuri11.woff2",
+      "bytes": 505400,
+      "sha256": "8bad9322b3340bfb5cb26cb00f4752bf4c8e7d1b526bb07205f4af458eebed31"
+    },
+    {
+      "path": "assets/web/fonts/OFL-Galmuri.md",
+      "bytes": 4266,
+      "sha256": "9a9e5a342c430c3fcf01a408b680f4405d5bf4ac659c931be35f8a1b27ea69c9"
+    },
+    {
+      "path": "assets/web/fonts/source.json",
+      "bytes": 878,
+      "sha256": "2809494b17ecd925b134e7e485f22fa9c4f51e4d90e4dd65a1837a23fa4c7207"
+    },
+    {
+      "path": "assets/web/gallery/apartment-slab.webp",
+      "bytes": 43334,
+      "sha256": "ec25d14bcc1be72f73dbc7a5894fa49a0b51a43609cee7fd1457d9638a0061d8"
+    },
+    {
+      "path": "assets/web/gallery/camp-chair.webp",
+      "bytes": 29956,
+      "sha256": "22e2ba02de644311f608c6eda4a20ec79fc1c09994dadb49f06812da149a10ca"
+    },
+    {
+      "path": "assets/web/gallery/camp-tent.webp",
+      "bytes": 27200,
+      "sha256": "fb034df18585176918c13563498776fe72c07b919e725c3222a66932f5753047"
+    },
+    {
+      "path": "assets/web/gallery/catalog.json",
+      "bytes": 7360,
+      "sha256": "2a095ae87cdfb62530fe548da297d0c97b1609990470cb132ea2a26ad11e8d17"
+    },
+    {
+      "path": "assets/web/gallery/character-rigged.webp",
+      "bytes": 21680,
+      "sha256": "96c2882c6e3eff2ac47b14551c2de3c27c603727ea2c0cabab8c73b6934ff2d9"
+    },
+    {
+      "path": "assets/web/gallery/character-tpose.glb",
+      "bytes": 4147664,
+      "sha256": "b28110f7a3bf347238820fcff13985bce022919bb56946eeaa4860c8c1b74667"
+    },
+    {
+      "path": "assets/web/gallery/contact-sheet.jpg",
+      "bytes": 342002,
+      "sha256": "d6d3282ddd96f510b895a46d0250bade6e9cb48be0aa6c339191857a941727d5"
+    },
+    {
+      "path": "assets/web/gallery/curved-glass-office.webp",
+      "bytes": 28510,
+      "sha256": "c2e049fda0a3111c7dac3fa157ad1b35d36a5a0dad81240c2c4dcb2c480233b9"
+    },
+    {
+      "path": "assets/web/gallery/dog-house-tripo.webp",
+      "bytes": 30890,
+      "sha256": "136e220109f5d3d886ecf672c465a1c3987b919bbfc9543e4f1a1686dd001910"
+    },
+    {
+      "path": "assets/web/gallery/laptop.webp",
+      "bytes": 22560,
+      "sha256": "1d36443a9b742f20a03e44aa1b35a8b724b6bd311abdef177c4a61edad93b7f3"
+    },
+    {
+      "path": "assets/web/gallery/namsan-tower.webp",
+      "bytes": 8666,
+      "sha256": "286a675461cbda0eae62bf5b681738dce23cc1e5414d042486353c09a97d2ae7"
+    },
+    {
+      "path": "assets/web/gallery/rooftop-water-tank.webp",
+      "bytes": 16400,
+      "sha256": "6239f270866fee35565e728c8db98ca976026c0dbb845ab2bddb8231ebad38bc"
+    },
+    {
+      "path": "assets/web/gallery/seoul-corner-shops.webp",
+      "bytes": 57992,
+      "sha256": "5b7907e5f2f94f2b1406de24136746a283df9d3cd3dc18f8ff89dff2d4b6070b"
+    },
+    {
+      "path": "assets/web/gallery/seoul-silver-glass-office.webp",
+      "bytes": 25246,
+      "sha256": "118b6af0f8b1f21017ba57a0a0bb74ba1960583bfc0b2d3e1ca1b6c6fd5ac3fa"
+    },
+    {
+      "path": "assets/web/gallery/shiba-static.glb",
+      "bytes": 793368,
+      "sha256": "2c52114539e2a1ed62076ae4c634b9cbb58ed85a6166f4400024db59c65c1471"
+    },
+    {
+      "path": "assets/web/gallery/shiba-walk.webp",
+      "bytes": 21912,
+      "sha256": "75f549cc196b7825a924b82533e557699b9fe3f4cd8c91eeb2382a2f14bbbcd0"
+    },
+    {
+      "path": "assets/web/gallery/stone-rib-tower.webp",
+      "bytes": 29740,
+      "sha256": "1ff1b6252b44778dc7a00a6c91b3a968f1eae4c87cbab86d9c7ef8653fe704fd"
+    },
+    {
+      "path": "assets/web/gallery/survival-backpack.webp",
+      "bytes": 26520,
+      "sha256": "68896b6edba5a2784f99ffd3ec7533049543510d7ebf84d104666217dad26324"
+    },
+    {
+      "path": "assets/web/gallery/survival-cooler.webp",
+      "bytes": 17328,
+      "sha256": "ffa099f8f6d97c855fd464234c96ad0044c3444591a8b0a0dc587fd305f23966"
+    },
+    {
+      "path": "assets/web/gallery/survival-storage.webp",
+      "bytes": 18138,
+      "sha256": "4a74db298ba13866f61eca1f3944b73bbbb081d1a01683075d1afa16e339a300"
+    },
+    {
+      "path": "assets/web/gallery/survival-toolbox.webp",
+      "bytes": 23700,
+      "sha256": "c77283f04667043d5d1a20c50b3db01b9e85afe24930ad59d03deb78b655c099"
+    },
+    {
+      "path": "assets/web/gallery/tent.webp",
+      "bytes": 21626,
+      "sha256": "63db59dfdd6cae92e860c034462657520512ba630a5b57fcd74f148219cdf06c"
+    },
+    {
+      "path": "assets/web/gallery/weathered-wood-platform.webp",
+      "bytes": 18838,
+      "sha256": "9f4676922407003c2fb93bb445271a70f5bfe295ec47ca602212d7a22dc29bba"
+    },
+    {
+      "path": "assets/web/gallery/wooden-camp-table.webp",
+      "bytes": 19968,
+      "sha256": "18c8ea57318ae32892526fe76b134faddcf14bcb042dfb327241dd2ee3693b9c"
+    },
+    {
+      "path": "assets/web/gallery/yeouido-glass-office.webp",
+      "bytes": 20258,
+      "sha256": "97437fbe0519951f16ba30c840dcf749d26fcc50d165cce48b3619f7b214be47"
+    },
+    {
+      "path": "assets/web/gallery/yeouido-gold-tower.webp",
+      "bytes": 13234,
+      "sha256": "c5f4dc522f33a9ef139b12dbcee4835f375143aa266416f49b15fe045d38dceb"
+    },
+    {
+      "path": "assets/web/gallery/yeouido-red-frame-tower.webp",
+      "bytes": 21310,
+      "sha256": "28fcb22a7a0657a48e16a9200ae6e29cb77f8de978d8f6e8f243ebd471d468f1"
+    },
+    {
+      "path": "assets/web/local-camp/camp-kitchen.glb",
+      "bytes": 58024,
+      "sha256": "9750016952c6ef0bb0a5ab5b58a0d5b4123343703f31bcc8952e34b3be5c50f7"
+    },
+    {
+      "path": "assets/web/local-camp/dog-house.glb",
+      "bytes": 75328,
+      "sha256": "2419df56916f306571c745ffc9b942bd14a9b71010cd0af8c856eeb3dba365b1"
+    },
+    {
+      "path": "assets/web/previews/apochill-skyline-helipads-v30.png",
+      "bytes": 507587,
+      "sha256": "24f60f3c12b8819531b797828d26c5d01b582c1701287cddb563c509b6b9ee92"
+    },
+    {
+      "path": "assets/web/props/camp-chair-preview.png",
+      "bytes": 184053,
+      "sha256": "864186741198615ebf67731c2501fe921c958cdffce398131e19c48ce39d8254"
+    },
+    {
+      "path": "assets/web/props/camp-chair.glb",
+      "bytes": 1103720,
+      "sha256": "af2d7e2603de02a59da18bdbead8ab094d7fc8fc4debfb0d1bb6a1cdcfdf397a"
+    },
+    {
+      "path": "assets/web/props/camp-tent-preview.png",
+      "bytes": 180237,
+      "sha256": "793109de521f25a58c1f0c16982e747ab4055bfbd8b7c49cc2d09b7e707da23b"
+    },
+    {
+      "path": "assets/web/props/camp-tent.glb",
+      "bytes": 1016384,
+      "sha256": "1228ea06356d3303a685f9d08927b9048f57395fcd880baf5e1ba377dd03ca75"
+    },
+    {
+      "path": "assets/web/props/dog-house-tripo.glb",
+      "bytes": 1067164,
+      "sha256": "08aee6e08155d21c62bdfd0a77089f94b3a8a7d950189b5f094613e98ccae406"
+    },
+    {
+      "path": "assets/web/props/rooftop-water-tank-preview.png",
+      "bytes": 167300,
+      "sha256": "59de19519517ce6f330f364ed08609f5da449102edaee62fdce1d6b3a8df8960"
+    },
+    {
+      "path": "assets/web/props/rooftop-water-tank.glb",
+      "bytes": 909940,
+      "sha256": "1e8d0943ba5c873c8dee7b2c06e8cb0f69dd3000f00059ab07fac2e9aedcdaaa"
+    },
+    {
+      "path": "assets/web/props/survival-backpack-preview.png",
+      "bytes": 293268,
+      "sha256": "c2140b84f9dba49577d071d265fcb286bd3f09acea003dbe9f0cd1e4fc36f950"
+    },
+    {
+      "path": "assets/web/props/survival-backpack.glb",
+      "bytes": 948684,
+      "sha256": "70f0ec9dfe080eaad7e783a81b24fe6ea0f9173e7b0a19ad83d7dc4292a33a09"
+    },
+    {
+      "path": "assets/web/props/survival-cooler-preview.png",
+      "bytes": 236152,
+      "sha256": "e5027ac73d9c7c839a64b021def64da2cec88a25bb5b5e8256ef160ed8ca5ef6"
+    },
+    {
+      "path": "assets/web/props/survival-cooler.glb",
+      "bytes": 720240,
+      "sha256": "0889a99c5dae1f5c7399d6ce2bfa0014ab8e698a3ff0c4b1cc39ced9bde67ecd"
+    },
+    {
+      "path": "assets/web/props/survival-storage-preview.png",
+      "bytes": 226670,
+      "sha256": "44ce5ccf857ca9686bff04736124088b9fcf2d68141f01dc12ac7c8c84dc9d8d"
+    },
+    {
+      "path": "assets/web/props/survival-storage.glb",
+      "bytes": 1097324,
+      "sha256": "e930793c8d980adbfd23e10497ccfb3b06fcf91f20ec4c46e887a36fe9fdc384"
+    },
+    {
+      "path": "assets/web/props/survival-toolbox-preview.png",
+      "bytes": 278931,
+      "sha256": "d8d9b6fc7583eeeac13dcfe11575bcc54a2548fc61986f87720f395bf256de0b"
+    },
+    {
+      "path": "assets/web/props/survival-toolbox.glb",
+      "bytes": 1054524,
+      "sha256": "b2b4e819a9ab0490b291c167957238aeb806cc10fa07b46a312dd5e164374a0b"
+    },
+    {
+      "path": "assets/web/props/weathered-wood-platform-preview.png",
+      "bytes": 192032,
+      "sha256": "8bc7be3e71a4d35f47c0f8b1d558ea267aa139315044fd4ea84a5eb1041ad59e"
+    },
+    {
+      "path": "assets/web/props/weathered-wood-platform.glb",
+      "bytes": 1762528,
+      "sha256": "a728b63e417250f10c507f6e9ab0163d9248d439752813e077dfa283e3a10634"
+    },
+    {
+      "path": "assets/web/props/wooden-camp-table-preview.png",
+      "bytes": 175705,
+      "sha256": "26add24a69a91e21844e347f1cb5d51ba7bf5f5be595b9c240302d5fe5f228bb"
+    },
+    {
+      "path": "assets/web/props/wooden-camp-table.glb",
+      "bytes": 1156712,
+      "sha256": "51be47f1f4109513a532d2abf9b538b4b153f3a457fb00cc1f7dff7ee17a4b18"
+    },
+    {
+      "path": "assets/web/tent.glb",
+      "bytes": 275968,
+      "sha256": "6b14112634a8d9b57354b73e9ef6f4ccb92d5e570d1da5cf03658cda2c9b483c"
+    },
+    {
+      "path": "assets/web/textures/city-growth.png",
+      "bytes": 87234,
+      "sha256": "04c8fa29c4748bf5867fc059897d2ddfa8137489365ff6d1f64ce37efc069b44"
+    },
+    {
+      "path": "assets/web/textures/ivy-leaf-atlas-v1.png",
+      "bytes": 671648,
+      "sha256": "39bf5ef945ba3c83f30befcb824d519a670e2a63d89e66868ae56bece77c2f41"
+    },
+    {
+      "path": "assets/web/textures/meadow-ground.png",
+      "bytes": 216605,
+      "sha256": "da4317d31870447e7b5598c89fdd84a28b5c2140ea00ae2e2ac7a1f61d90ff6e"
+    },
+    {
+      "path": "assets/web/textures/retro-atlas.png",
+      "bytes": 3144398,
+      "sha256": "2da89b0edc9eef76a9fb49fe83e964c1bd5a3299bbdddfbc8c0f0d51ac16ba01"
+    },
+    {
+      "path": "assets/web/textures/tree-billboard-atlas.png",
+      "bytes": 97516,
+      "sha256": "02e3961da28c81bab32ec87c32717efa2aa3cc6aa0a018c46de3303a02fd5cf6"
+    },
+    {
+      "path": "assets/web/textures/tree-billboard-normals.png",
+      "bytes": 188862,
+      "sha256": "d3092cb9d3a96e944dbc41cdcc8ca905c585ced3d3f48b49660c355300f16e09"
+    },
+    {
+      "path": "gallery.html",
+      "bytes": 1669,
+      "sha256": "50b218ffed591b7c51906955b748e52c93305d46ecca2c4c3cdd2e2b914a8e0c"
+    },
+    {
+      "path": "index.html",
+      "bytes": 4602,
+      "sha256": "9dc88f7ca0f20b2c1dcb06dce6dc1b8f0755168dae2054e91e20eae6c16a71e8"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 25723,
+      "sha256": "e724275ef26ac869ee16a6e631d9ec9dbb30b3ed4874a3637844cf718ee5ef33"
+    },
+    {
+      "path": "package.json",
+      "bytes": 547,
+      "sha256": "e431d44c32af6b87b1d443c9d12ad668cf576b11e3eeb698f4be5110f6fd1447"
+    },
+    {
+      "path": "src/activity-phrases.js",
+      "bytes": 546,
+      "sha256": "15d5430f301456da4df6b0678e786c8ff524ce0963fc72ffd8c1df8f75646b35"
+    },
+    {
+      "path": "src/architecture-assets.js",
+      "bytes": 4885,
+      "sha256": "6e2a3e58c92358c551d0c0c17d4e071729437e6443ce487ab544d34972e9d8c8"
+    },
+    {
+      "path": "src/architecture-greening.js",
+      "bytes": 5174,
+      "sha256": "1f824796e73086748504c550dfe0aac57a22dc3f0e1baefa203da56dd2adc415"
+    },
+    {
+      "path": "src/art-direction.js",
+      "bytes": 1926,
+      "sha256": "140e3c0baa1a34c0f2e182f8111d717fb8508bc304463e131f671171c0985b34"
+    },
+    {
+      "path": "src/bgm-autoplay.js",
+      "bytes": 1252,
+      "sha256": "9fcbacdaf8fad806d2d3993814c755d6678bd514bf2ed882ca72c2bb1dba7823"
+    },
+    {
+      "path": "src/bgm-player.js",
+      "bytes": 7468,
+      "sha256": "db55bf2d5b069551d6db867bfe0f713b256908013686384659a6f3d6d1de8049"
+    },
+    {
+      "path": "src/bgm-ui.js",
+      "bytes": 5380,
+      "sha256": "782a1e8457ed7681da5fef03e9794df386a1590b7568866e7aa5ded8bbacbb73"
+    },
+    {
+      "path": "src/bgm.css",
+      "bytes": 2535,
+      "sha256": "096c3f81dc4ac3f84dc788633ab79f4043c521cf5189595f915df7d170c9099f"
+    },
+    {
+      "path": "src/bootstrap.js",
+      "bytes": 1346,
+      "sha256": "66bda6a09ab3e3f87d22d2a94448eb54f90522d12c6d0779f5f39b586c690ec6"
+    },
+    {
+      "path": "src/branch-foliage.js",
+      "bytes": 8100,
+      "sha256": "cf7f66cbbbd14269631d769afa7f7bcc19da96e93f7a056b8ee8acdea28391dd"
+    },
+    {
+      "path": "src/building-surface-cleanup.js",
+      "bytes": 1073,
+      "sha256": "b2ddd82ee5fa20587eb8c9a82f0208728578856036b6ff3d57652478d50a576b"
+    },
+    {
+      "path": "src/building-trees.js",
+      "bytes": 5167,
+      "sha256": "f393dca689e409319a4149b8756c01f7689e94cca5f7fd84f041e74326bdd7de"
+    },
+    {
+      "path": "src/camp-expansion.js",
+      "bytes": 6510,
+      "sha256": "62e7ef9e695d60f797c2c872e8e9746baf3b9a7160de14b2ddf2b0ce6e6691a7"
+    },
+    {
+      "path": "src/camp-ivy.js",
+      "bytes": 1803,
+      "sha256": "f9ae41a8a930e775d151ec0fa632bd2390715e9ac4ea8225be01c098be84a50b"
+    },
+    {
+      "path": "src/cinematic-lighting.js",
+      "bytes": 3229,
+      "sha256": "84b93b19edb45734ec9de6eb9de7a71f2d0c67157231664914ad9f0b64581fd5"
+    },
+    {
+      "path": "src/city-architecture.js",
+      "bytes": 12051,
+      "sha256": "387efe3e56d3b3918a06c9506b2ac6554a7272990b5269f65cfd377a4d514793"
+    },
+    {
+      "path": "src/city-building-kit.js",
+      "bytes": 3897,
+      "sha256": "1e8f6f4ae3016b39c77dda8e65a5bad0c71b1b810c708ab65f6f6a742915c297"
+    },
+    {
+      "path": "src/city-coverage-lots.js",
+      "bytes": 827,
+      "sha256": "924927a29c8981cedd903e0a43c019eaf93f3dd3a49f18b728ea5d443bd7f9ad"
+    },
+    {
+      "path": "src/city-forest.js",
+      "bytes": 5712,
+      "sha256": "91ff017cb3239af9807b7dcb7221ebd0a18d452d23109b909fc95541bdef4425"
+    },
+    {
+      "path": "src/city-growth-field.js",
+      "bytes": 1770,
+      "sha256": "fb472469a3b57386ce46369f4d5f2e6bd8862ae562b2e546bae73c6a33d1aad0"
+    },
+    {
+      "path": "src/city-vegetation.js",
+      "bytes": 6356,
+      "sha256": "5f6db3af0e714e4bd1acbadc21f15c9b3aaacd978e2d5fcde3b011166d9f6660"
+    },
+    {
+      "path": "src/concept-art-details.js",
+      "bytes": 4880,
+      "sha256": "36457a212fd9eb9627ee5b03c18e39027d35c3ed8438e5c8b3f4ad528c4af83c"
+    },
+    {
+      "path": "src/concept-palette.js",
+      "bytes": 1506,
+      "sha256": "87878896bb8ff56c6f2ae38f66e435cc0d32aef7d15c8ca4036aa3e1dd75d0aa"
+    },
+    {
+      "path": "src/concrete-building-kit.js",
+      "bytes": 8303,
+      "sha256": "f56cf17a6f18ca6aef691ca2bc0f30d52e7c25a130019d371cff585e93f23e7c"
+    },
+    {
+      "path": "src/day-clock.js",
+      "bytes": 696,
+      "sha256": "0cbf9946260807e231bc15b4360740eb470d0586dc085b8e3a8fa7554593f1dc"
+    },
+    {
+      "path": "src/daylight-details.js",
+      "bytes": 5374,
+      "sha256": "09c0c850582aa5ecffde0e14d7625495d2babbcc817a96a14d5c502f1feadaa0"
+    },
+    {
+      "path": "src/daylight-state.js",
+      "bytes": 4791,
+      "sha256": "a9dfe0045118397829bd1afce648f3ff89bf1f1f45745d92ae65ad9523343daa"
+    },
+    {
+      "path": "src/device-profile.js",
+      "bytes": 686,
+      "sha256": "0d69732f98aeaa86294de6f2a9d42651e690fad3f9415a9912e50ea23e4a10df"
+    },
+    {
+      "path": "src/diorama-props.js",
+      "bytes": 6936,
+      "sha256": "98c6bf845d9f5bcf7d4ca9a2b4fc8940565e5fd7ff953394d467371525da84ee"
+    },
+    {
+      "path": "src/diorama-rendering.js",
+      "bytes": 10294,
+      "sha256": "33581c6b6edfb3003f2e7ed245e4ae7e54a6d1f5a0bf698ff9234ba828befa5c"
+    },
+    {
+      "path": "src/diorama-trees.js",
+      "bytes": 2273,
+      "sha256": "92f689f0a3da6b26d5b4e6da0892637074f03ad3cfc8f8fb144012e8641ce942"
+    },
+    {
+      "path": "src/distant-landscape.js",
+      "bytes": 5261,
+      "sha256": "747210033875acef3f567edb06a3ca904246e37d3b772c8f790c512f1df71448"
+    },
+    {
+      "path": "src/dongjak-bridge.js",
+      "bytes": 2498,
+      "sha256": "3124a1932d817426ec3b6eb2b37bf0a3951f5d2e69d8f8344d08af16e216b310"
+    },
+    {
+      "path": "src/facade-ivy.js",
+      "bytes": 3246,
+      "sha256": "495cc71b60e198549a2b67ecf272924158523edede0a60d75f1b46d7e6b8fec0"
+    },
+    {
+      "path": "src/falling-leaves.js",
+      "bytes": 2132,
+      "sha256": "2d765e763148d1ffc546dbb11a81f93511a9ccd44e755dce64e94e719afe97cc"
+    },
+    {
+      "path": "src/foliage-wind.js",
+      "bytes": 2848,
+      "sha256": "4dc96d7497afe23878329bf8f4a439c2219a59e39a5a716c18aceed4074ed41c"
+    },
+    {
+      "path": "src/glass-building-kit.js",
+      "bytes": 3846,
+      "sha256": "cc083b910242a7bd88e48e4b2c6b3fdd4594c3672ae4acacb9afcde80f8e2cb6"
+    },
+    {
+      "path": "src/glass-roof-services.js",
+      "bytes": 4001,
+      "sha256": "885e5467732e27f24150f0a9136c1744c9e04c0fb195d285efacbebb4f7f1463"
+    },
+    {
+      "path": "src/glass-ui.css",
+      "bytes": 680,
+      "sha256": "9c4268574222e44e89b4b3f6c53f921ad2073a65b9da811201ba91ff4e81aa4a"
+    },
+    {
+      "path": "src/glass-weathering.js",
+      "bytes": 1722,
+      "sha256": "74df5b4b676903509c5670f0e49d02ad550d7b6bacf529ad4995475c982def8b"
+    },
+    {
+      "path": "src/ivy-surface.js",
+      "bytes": 2452,
+      "sha256": "59b2d1b7d15aaa02f84436a328786cf5adf44262b39d2755581e73cc9721e499"
+    },
+    {
+      "path": "src/ivy-vines.js",
+      "bytes": 5640,
+      "sha256": "1d4103ca9a343c275f1f989e3a51277966cc0fc6f4418765ed0e20082441cbff"
+    },
+    {
+      "path": "src/living-world.js",
+      "bytes": 6709,
+      "sha256": "d780950e8f38e6e4d62af7ef2657bd249d7f8b2a8fcd2afd75df21b0d436b674"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 14738,
+      "sha256": "f76162aa8a780c647f1e565024e7f3c44c90457d3ecc2cd2b1aa8c2ef2245936"
+    },
+    {
+      "path": "src/meadow-field.js",
+      "bytes": 3833,
+      "sha256": "d8d032c38226758ab8a44309327c89e48d4a61fea7373dc709a1a106f812131d"
+    },
+    {
+      "path": "src/meadow-ground.js",
+      "bytes": 1930,
+      "sha256": "80f23566289820863ae2531095844c1e7267252a593cab8fd4386fa1a8eb665e"
+    },
+    {
+      "path": "src/model-gallery.css",
+      "bytes": 3295,
+      "sha256": "c82d296ba7e77122148088d0a0b801227d5dc60e8c52ae4723e0494921498201"
+    },
+    {
+      "path": "src/model-gallery.js",
+      "bytes": 6441,
+      "sha256": "f83829a8cb415d35306d8a6c49b2bb6b583c8c3e50722e6f67353d4bd2230514"
+    },
+    {
+      "path": "src/namsan-landmark.js",
+      "bytes": 1326,
+      "sha256": "04ca27b3f6c50e8670332b76a2cba7d5fb9bf0b5decd2dffdfa3755325e98633"
+    },
+    {
+      "path": "src/painted-atmosphere.js",
+      "bytes": 2472,
+      "sha256": "27c4f4656ae7fa3535cad024d51083022e1433c83ff3e0c8ba23a2cf26c00863"
+    },
+    {
+      "path": "src/painted-nature.js",
+      "bytes": 11532,
+      "sha256": "4ccf7f255e4452dd14d122e137c4f813a92ef817df0f72ab3c047cd23bd63fa9"
+    },
+    {
+      "path": "src/painted-sky.js",
+      "bytes": 961,
+      "sha256": "23a2c8f904ca0ee5466070bd184720d338bd5d7c29963ba1757af893572a539f"
+    },
+    {
+      "path": "src/performance-stats.js",
+      "bytes": 4074,
+      "sha256": "0d26f8ade3542613498415c7ed32f9f7477a0917f277ac05c85ed38acfc89140"
+    },
+    {
+      "path": "src/pixel-icons.js",
+      "bytes": 933,
+      "sha256": "25e3cd2fd2b621e40a03de2644ab24ffcd92538989a81e0d7fb864de8448e625"
+    },
+    {
+      "path": "src/pixel-ui.css",
+      "bytes": 7434,
+      "sha256": "f6275d4628e7399b5a7c3cd9fb6e1f0de2c55ed2fb107b508bb74bb21811081d"
+    },
+    {
+      "path": "src/prepare-decoder.mjs",
+      "bytes": 469,
+      "sha256": "8cce1282f9731c8ac4901afac9b55ba3c88aebc0f0551be90279f73e6aa62e71"
+    },
+    {
+      "path": "src/prologue-story.js",
+      "bytes": 1431,
+      "sha256": "6dbc11380f3d96c5bb890179e52293f5a675427389fcbb0897098ef89d7b99f4"
+    },
+    {
+      "path": "src/prologue.css",
+      "bytes": 3959,
+      "sha256": "e9cf0e1f8acffde30a762748bdc2d51a949c715a8a359ef008db925688cfecc4"
+    },
+    {
+      "path": "src/prologue.js",
+      "bytes": 4888,
+      "sha256": "72167c69e0877b40d3315adb1aede55f66eb04f42bec78cfc8fe439970230376"
+    },
+    {
+      "path": "src/quality-profiles.js",
+      "bytes": 1259,
+      "sha256": "af45fa99db5900a87400365621d1150c59f8f61be7940a1a5a48aee537d8fe97"
+    },
+    {
+      "path": "src/quality-ui.js",
+      "bytes": 1731,
+      "sha256": "f5bbcb45e626a1334ed59d624f6f8fdd3ff70e26c6672e4d8ec18704be04d619"
+    },
+    {
+      "path": "src/render-budget.js",
+      "bytes": 491,
+      "sha256": "73d5f52f475e5f95be61eb4985f0a1b87c0017051d058153c856674daa0fc049"
+    },
+    {
+      "path": "src/retro-materials.js",
+      "bytes": 2816,
+      "sha256": "bab9b40136faa761284bcf01f146943a9bb62f54bbcb44d5905c86e334a8d001"
+    },
+    {
+      "path": "src/roof-facilities.js",
+      "bytes": 12833,
+      "sha256": "18e96f95da0b0a2d0831510e01ff69fda88be1a7d16050b9eb5226a09de83ec6"
+    },
+    {
+      "path": "src/rooftop-companions.js",
+      "bytes": 9159,
+      "sha256": "ca68166b476a3f9413d9c759bea87af575840c8ec79c3da4d9f53091fd7c5710"
+    },
+    {
+      "path": "src/rooftop-prop-assets.js",
+      "bytes": 4480,
+      "sha256": "360e8ecddbec4923be7a0079d18397a78c51a046b46010f55a9bb67398279765"
+    },
+    {
+      "path": "src/rooftop-wildlife.js",
+      "bytes": 7825,
+      "sha256": "6820764cfdd12e6fc9a49543bd87e7cb36755675a9cf8f572a02a94f9fb7f192"
+    },
+    {
+      "path": "src/ruin-craft.js",
+      "bytes": 3526,
+      "sha256": "911effb7d85cff76bc9017022a2701df54b3f30e3fa8d28ff4764f143506b5b5"
+    },
+    {
+      "path": "src/seoul-scene.js",
+      "bytes": 21039,
+      "sha256": "464ce02a3ab4ab5734c19b302b6b442e3adfd68dfc245357128cee85e67e4b82"
+    },
+    {
+      "path": "src/seoul-terrain.js",
+      "bytes": 520,
+      "sha256": "a73a8cd747b230f2c99ee0350370e3f6e3818156810bdbed3ed55f28c5e0de64"
+    },
+    {
+      "path": "src/shiba-home-behavior.js",
+      "bytes": 1984,
+      "sha256": "ef14bc5e6ee78c153f0820bab1ca60ad38b1d76b888e0abf0cf26db7cd8156e1"
+    },
+    {
+      "path": "src/shiba-roaming.js",
+      "bytes": 4801,
+      "sha256": "60b0a2c15ad9d7b7cf6ae42e5b2d7018358d337f0d3a5a7bdec27961c7404bbc"
+    },
+    {
+      "path": "src/soft-foliage-lighting.js",
+      "bytes": 2788,
+      "sha256": "c7b6de2e93f2c1d0a7624bcd25ec374cd3ab6843dfe9324c9d5aa1db3d2d4cb1"
+    },
+    {
+      "path": "src/speech-animation.js",
+      "bytes": 1244,
+      "sha256": "5968061119a0eae702827cbc5e9ab95e1836516c0c1f75d1574ecd044549f550"
+    },
+    {
+      "path": "src/speech-bubble.js",
+      "bytes": 1540,
+      "sha256": "363d997b1d9e5e2158fe3dd887036bd419fa9c4a3f4bee09177433382d29a451"
+    },
+    {
+      "path": "src/startup-progress.js",
+      "bytes": 822,
+      "sha256": "afc204437cf36ac3fc2eeafe6b2e4a5e48d41580615e9f30cd222e02b09d6abf"
+    },
+    {
+      "path": "src/startup-trace-plugin.mjs",
+      "bytes": 1269,
+      "sha256": "eea8ca845109e4a5e193c97251c899acb87b1a8126ccabd6608f9543f26c6078"
+    },
+    {
+      "path": "src/static-batching.js",
+      "bytes": 2048,
+      "sha256": "75bf1989cd43ebda39c507969402062647f9f5355662aba787ce6fb2d7208e45"
+    },
+    {
+      "path": "src/style.css",
+      "bytes": 7326,
+      "sha256": "9071808ca0c0bc77be7208c04f204ee9725cd596cf985babb76111d08c7228c1"
+    },
+    {
+      "path": "src/stylized-water.js",
+      "bytes": 10467,
+      "sha256": "76a321c83cef7f8c73a4102b716cecbfe5479a7a1fe010f9ddf29c579a1c9223"
+    },
+    {
+      "path": "src/sun-direction.js",
+      "bytes": 342,
+      "sha256": "f22f72a6ed53fd4cb3a5c06ca031747c7d7420ed71d3713d5a5f10e2cdd133b9"
+    },
+    {
+      "path": "src/sunlight-post.js",
+      "bytes": 8000,
+      "sha256": "4adb4e5267813d54ff3175e76b88a31c8494cab8a7c676ae072d2dbd184b0958"
+    },
+    {
+      "path": "src/surface-weathering.js",
+      "bytes": 4507,
+      "sha256": "3e3d21cd16daaad0cbd30ad897e3f438d565cda6f4a18d252ac997b83901851b"
+    },
+    {
+      "path": "src/time-of-day-ui.js",
+      "bytes": 3194,
+      "sha256": "f38bb7354a2ad3fefa8b9472f38029bf9e3e5c097bb45db10ab048c10ac93bf6"
+    },
+    {
+      "path": "src/tree-billboards.js",
+      "bytes": 8104,
+      "sha256": "72aef69b9f78ea672925016c195cedd1d39f84c6b142a0b791c1611cd2180ac0"
+    },
+    {
+      "path": "src/tripo-dog-house.js",
+      "bytes": 1297,
+      "sha256": "6d186fd0bd99c13b30ea1e79036b31c9b86f4c8174b64d907271771b66e3f450"
+    },
+    {
+      "path": "src/ui-shell.js",
+      "bytes": 577,
+      "sha256": "faa66992cc7d648ec884686b647ed0a964fcbe6a0ec55e1dacc04902c876776f"
+    },
+    {
+      "path": "src/verify-kit.mjs",
+      "bytes": 2355,
+      "sha256": "d2c729eebe1a70c9b9a358f901557847056992a11a0ec3e9830fea8448b754c1"
+    },
+    {
+      "path": "src/vertical-facade-lod.js",
+      "bytes": 3715,
+      "sha256": "d9bbce15bb2406b31212d2f896cf0782dec72cacf35a715ca241af1e8512b82c"
+    },
+    {
+      "path": "src/volumetric-fog.js",
+      "bytes": 5937,
+      "sha256": "b78e520f32dc0b1a9311e87275de107eabf496df03e5d511a370a3e18f40000b"
+    },
+    {
+      "path": "src/water-reflection.js",
+      "bytes": 3240,
+      "sha256": "711adedcf43078345836bf6302d811d5d89dfea445b64625ecb3e45e326f1624"
+    },
+    {
+      "path": "src/water-shore-field.js",
+      "bytes": 3924,
+      "sha256": "7384b770ac0ff907ce3f1eb4d582c7edfc7b571f23a386adfc4c8951416ba23c"
+    },
+    {
+      "path": "src/water-waves.js",
+      "bytes": 2378,
+      "sha256": "913277d5979c77c0657442c9924f1f35d7b641841ff0ae134406e311b995e7e0"
+    },
+    {
+      "path": "src/weather-cycle.js",
+      "bytes": 987,
+      "sha256": "36f0560a2de2b4132dc647c9aa2f89b075a9526b6afeb2641914b78dd029dfe3"
+    },
+    {
+      "path": "src/weather-system.js",
+      "bytes": 4744,
+      "sha256": "212f813f42cf5f659ad9a397569e8d35d85d1b7f9e13285ab6d5d1d2116a16a9"
+    },
+    {
+      "path": "src/wet-surface-state.js",
+      "bytes": 658,
+      "sha256": "968c8663662ba8d34ee3de765fafa20bde39095ef26ee1455cad37b16569c7ae"
+    },
+    {
+      "path": "src/wet-surfaces.js",
+      "bytes": 3899,
+      "sha256": "a9a1e4efe74c58272f56cd68baac5f175e3ccf70bc5eeff823a0550185736d41"
+    },
+    {
+      "path": "src/work-status-ui.js",
+      "bytes": 6315,
+      "sha256": "77fa6d3366325e68bf0f0992cb7cb2de5271eecc58bf47b731eee2a01bd12a9e"
+    },
+    {
+      "path": "src/work-status.css",
+      "bytes": 2320,
+      "sha256": "a4c0c94fd1371eb9e3af6494342c8fd32033450b8cdbec503a2d17375338c533"
+    },
+    {
+      "path": "src/world-meadow.js",
+      "bytes": 7257,
+      "sha256": "736e4aa3b51cf6554fbad91d12233fb78073571243105b28dabff5c5bb11f628"
+    },
+    {
+      "path": "src/yeouido-landmarks.js",
+      "bytes": 1992,
+      "sha256": "172f44fa65fde922609d3852f9dd7aa99ea081b6df1815a2713fe504bdf5e098"
+    },
+    {
+      "path": "vite.config.js",
+      "bytes": 356,
+      "sha256": "31cb64abeb98f73d61ed0937df4e575b17bd7ede9e9d848b603bf6bd3b033c6b"
+    }
+  ]
+}
