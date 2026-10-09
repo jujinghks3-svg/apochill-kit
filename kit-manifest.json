@@ -18,8 +18,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6934,
-      "sha256": "d4c503fae6e320df2c7e8e327fe8b57e092118d13b5a719911823a807db5f470"
+      "bytes": 10472,
+      "sha256": "fbc697e918b9f6cbd61218f8fa06e79a52efe5e53fc6d6affc6c9279ad36efa2"
     },
     {
       "path": "assets/web/.gitkeep",
@@ -488,18 +488,38 @@
     },
     {
       "path": "package-lock.json",
-      "bytes": 25723,
-      "sha256": "068a6719eb8cdf3379e21fc65d4afe075ca8c0028d6edd9e87f74a7573e9e480"
+      "bytes": 25722,
+      "sha256": "69c9d94d8769ba419f942a4b348be70707cd0673099bfb178dd4c6cab5dcd63d"
     },
     {
       "path": "package.json",
-      "bytes": 547,
-      "sha256": "e431d44c32af6b87b1d443c9d12ad668cf576b11e3eeb698f4be5110f6fd1447"
+      "bytes": 785,
+      "sha256": "2a20004243fa11fbc0752687ae07150373915b28f8c80aa82df4058b6bf7e154"
+    },
+    {
+      "path": "src/activity-helper.mjs",
+      "bytes": 2745,
+      "sha256": "f8624dd7cc3a2f2a63dbe1ea0aed95b14a8af749a78028648d17c8fd6044441e"
     },
     {
       "path": "src/activity-phrases.js",
       "bytes": 546,
       "sha256": "15d5430f301456da4df6b0678e786c8ff524ce0963fc72ffd8c1df8f75646b35"
+    },
+    {
+      "path": "src/activity-phrases.test.mjs",
+      "bytes": 630,
+      "sha256": "1411023364fcf6b86ec9c8b5d96f0d836f972187ed5198ab23c11ef83789cce0"
+    },
+    {
+      "path": "src/activity-state.mjs",
+      "bytes": 1997,
+      "sha256": "8853b0907611611a3c65b683cb5e25deb147183e4c1ef85ba686eeb61f974932"
+    },
+    {
+      "path": "src/activity-state.test.mjs",
+      "bytes": 2071,
+      "sha256": "fbfbdb3bbc73ee0eddd20bec4a5abb31c37ff38a7d3e49381d69b383e151f6e3"
     },
     {
       "path": "src/architecture-assets.js",
@@ -677,6 +697,11 @@
       "sha256": "4dc96d7497afe23878329bf8f4a439c2219a59e39a5a716c18aceed4074ed41c"
     },
     {
+      "path": "src/foreground-app.ps1",
+      "bytes": 962,
+      "sha256": "b91bbf1e75fe23e65dcc5d2cae1858cd4d6370e4b721683f4cbe1415c0c31041"
+    },
+    {
       "path": "src/glass-building-kit.js",
       "bytes": 3846,
       "sha256": "cc083b910242a7bd88e48e4b2c6b3fdd4594c3672ae4acacb9afcde80f8e2cb6"
@@ -695,6 +720,11 @@
       "path": "src/glass-weathering.js",
       "bytes": 1722,
       "sha256": "74df5b4b676903509c5670f0e49d02ad550d7b6bacf529ad4995475c982def8b"
+    },
+    {
+      "path": "src/install-activity-helper.ps1",
+      "bytes": 2241,
+      "sha256": "9d4e9246d2f48e962b8529af536963fcca7143eb1bb366de1d69a121274371f1"
     },
     {
       "path": "src/ivy-surface.js",
@@ -933,8 +963,8 @@
     },
     {
       "path": "src/verify-kit.mjs",
-      "bytes": 2355,
-      "sha256": "d2c729eebe1a70c9b9a358f901557847056992a11a0ec3e9830fea8448b754c1"
+      "bytes": 2571,
+      "sha256": "df739b2f679b8aa19c35ff690f9c6841ed9d517d6b25ea86f0f4e90640f2dc26"
     },
     {
       "path": "src/vertical-facade-lod.js",
@@ -983,8 +1013,13 @@
     },
     {
       "path": "src/work-status-ui.js",
-      "bytes": 6315,
-      "sha256": "77fa6d3366325e68bf0f0992cb7cb2de5271eecc58bf47b731eee2a01bd12a9e"
+      "bytes": 6567,
+      "sha256": "95aad7c38e7252db134060c69bf2cacd495764e18814eb785f57076806dc211b"
+    },
+    {
+      "path": "src/work-status-ui.test.mjs",
+      "bytes": 4956,
+      "sha256": "3e4ece9fb3c3427ed71b817fadb44ede339088005fbd2b608eb337825da54998"
     },
     {
       "path": "src/work-status.css",

@@ -5,7 +5,10 @@ import './work-status.css';
 const helper='http://127.0.0.1:5175';
 const restPhrase='옥상에서 잠시 쉬는 중';
 export function createWorkStatus({camera,getAnchor,getDogAnchor=()=>null,isDogOutside=()=>false}) {
-  const canConnect=false; // Standalone kit: no local app-detection service.
+  const local=location.protocol==='http:'&&['127.0.0.1','localhost'].includes(location.hostname)
+    && ['5174','4173','4174'].includes(location.port);
+  const windows=/Win/i.test(navigator.userAgentData?.platform??navigator.platform??'');
+  const canConnect=local||(windows&&location.origin==='https://apochill.lastweek.chatgpt.site');
   const bubble=createSpeechBubble(camera,{label:restPhrase});
   const dogBubble=createSpeechBubble(camera,{className:'dog-status-bubble',label:'월월!!'});
   dogBubble.setLabel('월월!!','');
@@ -13,7 +16,7 @@ export function createWorkStatus({camera,getAnchor,getDogAnchor=()=>null,isDogOu
   const panel=document.createElement('div');panel.className='work-status-panel';
   const button=document.createElement('button');button.type='button';button.textContent='내 PC 작업 연결';
   button.setAttribute('aria-pressed','false');button.title='이 PC의 앱 이름만 읽습니다. 창 제목이나 문서 내용은 읽지 않습니다.';
-  const hint=document.createElement('span');hint.textContent=canConnect?'PC 도우미 실행 후 연결 · 앱 이름만 감지':'공개 키트에서는 PC 앱 감지를 제공하지 않아요';
+  const hint=document.createElement('span');hint.textContent=canConnect?'PC 도우미 실행 후 연결 · 앱 이름만 감지':'앱 감지는 Windows PC에서 연결할 수 있어요';
   panel.append(button,hint);button.disabled=!canConnect;document.querySelector('.scene-controls').append(panel);
   let enabled=false,disposed=false,busy=false,inFlight=false,phrase=restPhrase,abort=null,age=0,lastSeconds=null;
   let detectedApp='',mood=0,nextAttempt=0,failures=0;

@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import {execFileSync} from 'node:child_process';
 import {readFile, readdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import path from 'node:path';
@@ -38,3 +39,4 @@ for (const entry of manifest.files.filter(entry => entry.path.endsWith('.glb')))
 const playlist = JSON.parse(await readFile(path.join(publicRoot, 'audio/bgm/playlist.json'), 'utf8'));
 for (const track of playlist.tracks) assert(manifest.files.some(entry => entry.path === `assets/web/audio/bgm/${track.src}`), `Missing music: ${track.src}`);
 console.log(`Verified ${manifest.files.length} file hashes, ${catalog.length} gallery entries, ${models} self-contained GLBs, ${playlist.tracks.length} music tracks.`);
+execFileSync(process.execPath, ['--test', 'src/activity-state.test.mjs', 'src/activity-phrases.test.mjs', 'src/work-status-ui.test.mjs'], {cwd:root,stdio:'inherit'});
