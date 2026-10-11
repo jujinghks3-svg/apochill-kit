@@ -18,8 +18,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10472,
-      "sha256": "fbc697e918b9f6cbd61218f8fa06e79a52efe5e53fc6d6affc6c9279ad36efa2"
+      "bytes": 10869,
+      "sha256": "755752577846729692151d0b1da83c61575545a53f113173db4bbf5e2fb62bc3"
     },
     {
       "path": "assets/web/.gitkeep",
@@ -150,6 +150,16 @@
       "path": "assets/web/companions/shiba.glb",
       "bytes": 793368,
       "sha256": "2c52114539e2a1ed62076ae4c634b9cbb58ed85a6166f4400024db59c65c1471"
+    },
+    {
+      "path": "assets/web/downloads/Apochill-Helper-Windows.sha256",
+      "bytes": 95,
+      "sha256": "9f750c79e59b6181c05e6edaa5c151a14f0eb0b42a1931cd2413d8f2c0851f8a"
+    },
+    {
+      "path": "assets/web/downloads/Apochill-Helper-Windows.zip",
+      "bytes": 12620,
+      "sha256": "1833fd569e722dc0ba39184a5a945eb6dab600e9da67dc8901c6cd1e9c4d737d"
     },
     {
       "path": "assets/web/fonts/Galmuri11-Bold.woff2",
@@ -487,6 +497,16 @@
       "sha256": "9dc88f7ca0f20b2c1dcb06dce6dc1b8f0755168dae2054e91e20eae6c16a71e8"
     },
     {
+      "path": "native/activity-helper/Program.cs",
+      "bytes": 14302,
+      "sha256": "af865e1c2182d63a427fdea6adc5a65b43ec43474d4ce98d0886267900d060d4"
+    },
+    {
+      "path": "native/activity-helper/README.txt",
+      "bytes": 1915,
+      "sha256": "3287bd1f2494464165937bfb64ae3de01c7bd0fa80eb10211d066336a6a0c5ad"
+    },
+    {
       "path": "package-lock.json",
       "bytes": 25722,
       "sha256": "69c9d94d8769ba419f942a4b348be70707cd0673099bfb178dd4c6cab5dcd63d"
@@ -565,6 +585,11 @@
       "path": "src/branch-foliage.js",
       "bytes": 8100,
       "sha256": "cf7f66cbbbd14269631d769afa7f7bcc19da96e93f7a056b8ee8acdea28391dd"
+    },
+    {
+      "path": "src/build-windows-helper.ps1",
+      "bytes": 1686,
+      "sha256": "06edec3087ae2758df51c85ed51ed399cbf884fc4050e4876ced2de824ceecde"
     },
     {
       "path": "src/building-surface-cleanup.js",
@@ -1012,19 +1037,24 @@
       "sha256": "a9a1e4efe74c58272f56cd68baac5f175e3ccf70bc5eeff823a0550185736d41"
     },
     {
+      "path": "src/work-status-options.js",
+      "bytes": 472,
+      "sha256": "2f5e97dcfd921db8d0c207367ba333157147c6f41b2ac0bc3e840fb265861f5e"
+    },
+    {
       "path": "src/work-status-ui.js",
-      "bytes": 6567,
-      "sha256": "95aad7c38e7252db134060c69bf2cacd495764e18814eb785f57076806dc211b"
+      "bytes": 10272,
+      "sha256": "e1017b1811e88568d791ab108352b5bcbd4e486252e94925693c8cd904e6a8cf"
     },
     {
       "path": "src/work-status-ui.test.mjs",
-      "bytes": 4956,
-      "sha256": "3e4ece9fb3c3427ed71b817fadb44ede339088005fbd2b608eb337825da54998"
+      "bytes": 5969,
+      "sha256": "84ff1d94e3d3ee3ba98add510d4ed7a579277acf0d4be8ce7965870d8e3ddde6"
     },
     {
       "path": "src/work-status.css",
-      "bytes": 2320,
-      "sha256": "a4c0c94fd1371eb9e3af6494342c8fd32033450b8cdbec503a2d17375338c533"
+      "bytes": 4426,
+      "sha256": "b5af9e594765d738b9ee08e4f6277625f001fe614a8ec9bb1016595644d8fae7"
     },
     {
       "path": "src/world-meadow.js",
